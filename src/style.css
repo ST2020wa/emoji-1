@@ -1,0 +1,61 @@
+.wrapper {
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 1fr;*/
+    /*grid-template-rows: 1fr 1fr 1fr;*/
+    /*grid-auto-rows: minmax(100px, auto);*/
+    /*grid-template-areas:*/
+    /*"roll-eye sigh"*/
+    /*"six bit"*/
+    /*"look crack";*/
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid red;
+    width: 40vh;
+    height: 60vh;
+    background: lightcyan;
+}
+
+.roll-eye {
+    width: 20vh;
+    height: 20vh;
+    border: 1px solid blue;
+}
+
+.six {
+    width: 20vh;
+    height: 20vh;
+    border: 1px solid orangered;
+
+}
+
+.look {
+    width: 20vh;
+    height: 20vh;
+    border: 1px solid yellow;
+
+}
+
+.sigh {
+    width: 20vh;
+    height: 20vh;
+    border: 1px solid greenyellow;
+
+}
+
+.bit {
+    width: 20vh;
+    height: 20vh;
+    border: 1px solid green;
+
+}
+
+.crack {
+    width: 20vh;
+    height: 20vh;
+    border: 1px solid blue;
+
+}
+
