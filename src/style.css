@@ -1,61 +1,126 @@
 .wrapper {
-    /*display: grid;*/
-    /*grid-template-columns: 1fr 1fr;*/
-    /*grid-template-rows: 1fr 1fr 1fr;*/
-    /*grid-auto-rows: minmax(100px, auto);*/
-    /*grid-template-areas:*/
-    /*"roll-eye sigh"*/
-    /*"six bit"*/
-    /*"look crack";*/
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     border: 1px solid red;
-    width: 40vh;
-    height: 60vh;
-    background: lightcyan;
+    background: white;
+    height:600px;
+    width: 400px;
+    position: relative;
 }
 
-.roll-eye {
-    width: 20vh;
-    height: 20vh;
-    border: 1px solid blue;
+.roll {
+    grid-area: 1 / 1 / 2 / 2;
+    border: 3px solid darkred;
+    position:relative;
 }
 
 .six {
-    width: 20vh;
-    height: 20vh;
-    border: 1px solid orangered;
-
+    grid-area: 1 / 2 / 2 / 3;
+    border: 3px solid orangered;
 }
 
 .look {
-    width: 20vh;
-    height: 20vh;
-    border: 1px solid yellow;
-
+    grid-area: 2 / 1 / 3 / 2;
+    border: 3px solid yellow;
 }
 
 .sigh {
-    width: 20vh;
-    height: 20vh;
-    border: 1px solid greenyellow;
-
+    grid-area: 2 / 2 / 3 / 3;
+    border: 3px solid greenyellow;
 }
 
 .bit {
-    width: 20vh;
-    height: 20vh;
-    border: 1px solid green;
-
+    grid-area: 3 / 1 / 4 / 2;
+    border: 3px solid green;
 }
 
 .crack {
-    width: 20vh;
-    height: 20vh;
-    border: 1px solid blue;
-
+    grid-area: 3 / 2 / 4 / 3;
+    border: 3px solid blue;
 }
 
+.face {
+    border: 3px solid  rgba(225,107,40,1);
+    background: linear-gradient(0deg, rgba(240,144,14,1) 0%, rgba(253,254,195,1) 95%, rgba(255,255,214,1) 100%);
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.roll-eye-left {
+    border: 2px solid rgb(159,140,64);
+    border-radius: 10px;
+    background:white;
+    position: absolute;
+    top: 0;
+    bottom: 12px;
+    right: 44px;
+    left: 0;
+    height: 14%;
+    width: 32%;
+    margin: auto;
+    overflow: hidden;
+}
+.roll-eye-right {
+    border: 2px solid rgb(159,140,64);
+    border-radius: 10px;
+    background:white;
+    position: absolute;
+    top: 0;
+    bottom: 12px;
+    right: 0;
+    left: 44px;
+    height: 14%;
+    width: 32%;
+    margin: auto;
+    overflow: hidden;
+}
+.roll-eyeball {
+    border: 1px solid black;
+    border-radius: 20px;
+    background:black;
+    position: absolute;
+    top: 0;
+    bottom: 15px;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    margin: auto;
+
+}
+.mouth {
+    border: 2px solid rgba(121,75,13,0.8);
+    border-radius: 3px;
+    background:rgba(121,75,13,0.8);
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width:14px;
+    height: 2px;
+}
+.six-face {
+    border: 3px solid  rgba(225,107,40,1);
+    position: absolute;
+    top: 200px;
+    bottom: 200px;
+    right: 200px;
+    left: 0;
+    height: 16.67%;
+    width: 25%;
+    margin: auto;
+    overflow: hidden;
+}
