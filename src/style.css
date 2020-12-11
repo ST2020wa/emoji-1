@@ -332,3 +332,13 @@
     width:50px;
     height: 12px;
 }
+.icon {
+    z-index: 2;
+    width: 11em; height: 11em;
+    position: absolute;
+    top: 219px;
+    bottom: 0;
+    right: 0;
+    left: 213px;
+    fill: white;
+}
