@@ -1,12 +1,12 @@
 .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     border: 1px solid red;
     background: white;
-    height:600px;
+    height:400px;
     width: 400px;
     position: relative;
 }
@@ -16,33 +16,20 @@
     border: 3px solid darkred;
     position:relative;
 }
-
 .six {
-    grid-area: 1 / 2 / 2 / 3;
+    grid-area: 2 / 1 / 3 / 2;
     border: 3px solid orangered;
 }
-
-.look {
-    grid-area: 2 / 1 / 3 / 2;
-    border: 3px solid yellow;
-}
-
-.sigh {
-    grid-area: 2 / 2 / 3 / 3;
-    border: 3px solid greenyellow;
-}
-
 .bit {
-    grid-area: 3 / 1 / 4 / 2;
+    grid-area: 1 / 2 / 2 / 3;
     border: 3px solid green;
 }
-
 .crack {
-    grid-area: 3 / 2 / 4 / 3;
+    grid-area: 2 / 2 / 3 / 3;
     border: 3px solid blue;
 }
 
-.face {
+.roll-face {
     border: 3px solid  rgba(237,127,6);
     background: linear-gradient(0deg, rgba(240,144,14,1) 0%, rgba(253,254,195,1) 95%, rgba(255,255,214,1) 100%);
     border-radius: 60px;
@@ -98,7 +85,7 @@
     margin: auto;
 
 }
-.mouth {
+.roll-mouth {
     border: 2px solid rgba(121,75,13,0.8);
     border-radius: 3px;
     background:rgba(121,75,13,0.8);
@@ -117,11 +104,11 @@
     background: linear-gradient(0deg, rgba(240,144,14,1) 0%, rgba(253,254,195,1) 95%, rgba(255,255,214,1) 100%);
     border-radius: 60px;
     position: absolute;
-    top: 200px;
+    top: 400px;
     bottom: 200px;
     right: 200px;
     left: 0;
-    height: 16.67%;
+    height: 25%;
     width: 25%;
     margin: auto;
     overflow: hidden;
@@ -172,7 +159,7 @@
     border-radius: 0 0 100% 100%/0 0 200% 200% ;
     border-top: none;
     position: absolute;
-    top: 62px;
+    top: 61px;
     bottom: 0;
     right: 0;
     left: 28px;
@@ -186,8 +173,8 @@
     font-weight: bold;
     z-index: 1;
     position: absolute;
-    top: 75px;
-    bottom: 120px;
+    top: 110px;
+    bottom: 0;
     right: 120px;
     left: 0;
     height: 16.67%;
@@ -195,3 +182,85 @@
     margin: auto;
 }
 
+.bit {
+    overflow: hidden;
+}
+.bit-face {
+    z-index: 2;
+    border: 3px solid  rgba(237,127,6);
+    background: linear-gradient(0deg, rgba(240,144,14,1) 0%, rgba(253,254,195,1) 95%, rgba(255,255,214,1) 100%);
+    border-radius: 60px;
+    position: absolute;
+    top: 0;
+    bottom: 200px;
+    right: 0;
+    left: 200px;
+    height: 25%;
+    width: 25%;
+    margin: auto;
+    overflow: hidden;
+}
+.bit-eye-left {
+    border: 2px solid rgb(159,140,64);
+    border-radius: 8px;
+    background:white;
+    position: absolute;
+    top: 0;
+    bottom: 8px;
+    right: 55px;
+    left: 0;
+    height: 20%;
+    width: 30%;
+    margin: auto;
+    overflow: hidden;
+}
+.bit-eye-right {
+    border: 2px solid rgb(159,140,64);
+    border-radius: 8px;
+    background:white;
+    position: absolute;
+    top: 0;
+    bottom: 8px;
+    right: 0;
+    left: 30px;
+    height: 20%;
+    width: 30%;
+    margin: auto;
+    overflow: hidden;
+}
+.bit-eyeball {
+    border-radius: 10px;
+    background:black;
+    position: absolute;
+    top: 0;
+    bottom: 3px;
+    right: 0;
+    left: 0;
+    height: 68%;
+    width: 45%;
+    margin: auto;
+}
+.bit-mouth {
+    border: 3px solid rgb(121,75,13);
+    border-radius: 0 0 100% 100%/0 0 200% 200% ;
+    border-top: none;
+    position: absolute;
+    top: 118px;
+    bottom: 0;
+    right: 0;
+    left: 272px;
+    width:38px;
+    height: 8px;
+}
+.tear {
+    z-index:3;
+    border: 1px solid red;
+    background: red;
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    right: 0;
+    left: 200px;
+    width:100px;
+    height: 100px;
+}
