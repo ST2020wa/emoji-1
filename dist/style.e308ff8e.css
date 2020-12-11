@@ -43,9 +43,9 @@
 }
 
 .face {
-    border: 3px solid  rgba(225,107,40,1);
+    border: 3px solid  rgba(237,127,6);
     background: linear-gradient(0deg, rgba(240,144,14,1) 0%, rgba(253,254,195,1) 95%, rgba(255,255,214,1) 100%);
-    border-radius: 50px;
+    border-radius: 60px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -56,7 +56,6 @@
     margin: auto;
     overflow: hidden;
 }
-
 .roll-eye-left {
     border: 2px solid rgb(159,140,64);
     border-radius: 10px;
@@ -112,8 +111,11 @@
     width:14px;
     height: 2px;
 }
+
 .six-face {
-    border: 3px solid  rgba(225,107,40,1);
+    border: 3px solid  rgba(237,127,6);
+    background: linear-gradient(0deg, rgba(240,144,14,1) 0%, rgba(253,254,195,1) 95%, rgba(255,255,214,1) 100%);
+    border-radius: 60px;
     position: absolute;
     top: 200px;
     bottom: 200px;
@@ -124,5 +126,75 @@
     margin: auto;
     overflow: hidden;
 }
+.six-eye-left {
+    border: 2px solid rgb(159,140,64);
+    border-radius: 0 0 20px 20px;
+    background:white;
+    position: absolute;
+    top: 0;
+    bottom: 5px;
+    right: 55px;
+    left: 0;
+    height: 15%;
+    width: 36%;
+    margin: auto;
+    overflow: hidden;
+}
+.six-eye-right {
+    border: 2px solid rgb(159,140,64);
+    border-radius: 0 0 20px 20px;
+    background:white;
+    position: absolute;
+    top: 0;
+    bottom: 5px;
+    right: 0;
+    left: 35px;
+    height: 15%;
+    width: 36%;
+    margin: auto;
+    overflow: hidden;
+}
+.six-eyeball {
+    border: 1px solid black;
+    border-radius: 50px;
+    background:black;
+    position: absolute;
+    top: 0;
+    bottom: 40px;
+    right: 0;
+    left: 15px;
+    height: 5vh;
+    width: 4vw;
+    margin: auto;
+}
+.six-mouth {
+    border: 3px solid rgb(121,75,13);
+    border-radius: 0 0 100% 100%/0 0 200% 200% ;
+    border-top: none;
+    position: absolute;
+    top: 62px;
+    bottom: 0;
+    right: 0;
+    left: 28px;
+    width:28px;
+    height: 5px;
+}
+.text{
+    font-size: 45px;
+    font-family: sans-serif;
+    color: rgb(230,35,23);
+    font-weight: bold;
+    z-index: 1;
+    position: absolute;
+    top: 75px;
+    bottom: 120px;
+    right: 120px;
+    left: 0;
+    height: 16.67%;
+    width: 25%;
+    margin: auto;
+}
+
+
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
