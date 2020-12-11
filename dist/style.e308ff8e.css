@@ -182,9 +182,6 @@
     margin: auto;
 }
 
-.bit {
-    overflow: hidden;
-}
 .bit-face {
     border: 3px solid  rgba(237,127,6);
     background: linear-gradient(0deg, rgba(240,144,14,1) 0%, rgba(253,254,195,1) 95%, rgba(255,255,214,1) 100%);
@@ -273,6 +270,68 @@
     height: 45px;
 }
 
+.crack-face {
+    border: 3px solid  rgba(237,127,6);
+    background: linear-gradient(0deg, rgba(240,144,14,1) 0%, rgba(253,254,195,1) 95%, rgba(255,255,214,1) 100%);
+    border-radius: 60px;
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    right: 0;
+    left: 200px;
+    height: 25%;
+    width: 25%;
+    margin: auto;
+    /*overflow: hidden;*/
+}
+.crack-eye-left {
+    border: 2px solid rgb(159,140,64);
+    background: white;
+    border-radius: 60px;
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    right: 0;
+    left: 13px;
+    height: 28%;
+    width: 25%;
+}
+.crack-eye-right {
+    border: 2px solid rgb(159,140,64);
+    background: white;
+    border-radius: 60px;
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    right: 0;
+    left: 58px;
+    height: 28%;
+    width: 25%;
+}
+.crack-eyeball {
+    border: 2px solid black;
+    background: black;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    right: 0;
+    left: 3px;
+    height: 50%;
+    width: 58%;
+}
+.crack-mouth {
+    border: 3px solid rgb(121,75,13);
+    border-radius: 0 0 100% 100%/0 0 200% 200% ;
+    border-top: none;
+    position: absolute;
+    top: 315px;
+    bottom: 0;
+    right: 0;
+    left: 272px;
+    width:50px;
+    height: 12px;
+}
 
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
