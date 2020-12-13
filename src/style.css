@@ -4,7 +4,7 @@
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     background: white;
     height:400px;
     width: 400px;
@@ -13,20 +13,20 @@
 
 .roll {
     grid-area: 1 / 1 / 2 / 2;
-    border: 3px solid darkred;
+    /*border: 3px solid darkred;*/
     position:relative;
 }
 .six {
     grid-area: 2 / 1 / 3 / 2;
-    border: 3px solid orangered;
+    /*border: 3px solid orangered;*/
 }
 .bit {
     grid-area: 1 / 2 / 2 / 3;
-    border: 3px solid green;
+    /*border: 3px solid green;*/
 }
 .crack {
     grid-area: 2 / 2 / 3 / 3;
-    border: 3px solid blue;
+    /*border: 3px solid blue;*/
 }
 
 .roll-face {
@@ -97,6 +97,11 @@
     margin: auto;
     width:14px;
     height: 2px;
+}
+.roll-face:hover {
+    border: 3px solid rgb(146,187,44);
+    background: linear-gradient(0deg, rgba(107,132,16) 0%, rgba(218,235,168,1) 100%);
+    cursor: cell;
 }
 
 .six-face {
@@ -181,6 +186,13 @@
     width: 25%;
     margin: auto;
 }
+.text:hover{
+    cursor: default;
+    transform: scale(1.5);
+    color: rgb(47,235,225);
+    text-shadow: rgb(242,0,66) 4px 1px;
+    cursor: cell;
+}
 
 .bit-face {
     border: 3px solid  rgba(237,127,6);
@@ -251,23 +263,27 @@
 }
 .tear-left {
     z-index: 2;
-    background: linear-gradient(0deg, rgba(185,207,231,1) 0%, rgba(116,145,230,1) 50%, rgba(76,139,233,1) 78%, rgba(43,75,167,1) 100%);    position: absolute;
+    background: linear-gradient(0deg, rgba(185,207,231,1) 0%, rgba(116,145,230,1) 60%, rgba(76,139,233,1) 78%, rgba(43,75,167,1) 100%);    position: absolute;
     top: 57px;
     bottom: 0;
     right: 0;
     left: 20px;
     width:8px;
-    height: 45px;
+    height: 55px;
 }
 .tear-right {
     z-index: 2;
-    background: linear-gradient(0deg, rgba(185,207,231,1) 0%, rgba(116,145,230,1) 50%, rgba(76,139,233,1) 78%, rgba(43,75,167,1) 100%);    position: absolute;
+    background: linear-gradient(0deg, rgba(185,207,231,1) 0%, rgba(116,145,230,1) 60%, rgba(76,139,233,1) 78%, rgba(43,75,167,1) 100%);    position: absolute;
     top: 57px;
     bottom: 0;
     right: 0;
     left: 63px;
     width:8px;
-    height: 45px;
+    height: 55px;
+}
+.bit-face:hover {
+    overflow: visible;
+    cursor: cell;
 }
 
 .crack-face {
@@ -282,7 +298,7 @@
     height: 25%;
     width: 25%;
     margin: auto;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 .crack-eye-left {
     border: 2px solid rgb(159,140,64);
@@ -341,4 +357,7 @@
     right: 0;
     left: 213px;
     fill: white;
+}
+.crack-face:hover {
+    background: red;
 }
