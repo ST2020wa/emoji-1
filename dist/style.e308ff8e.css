@@ -358,9 +358,9 @@
     left: 213px;
     fill: white;
 }
-.crack-face:hover {
-    background: red;
-}
+/*.crack-face:hover {*/
+/*    transform: scale(0.5);*/
+/*}*/
 
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
