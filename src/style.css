@@ -22,6 +22,8 @@ span {
     border-radius: 60px;
     height: 50%;
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
     overflow: hidden;
 }
 .bit-eye-left {
@@ -30,70 +32,47 @@ span {
     background:white;
     height: 20%;
     width: 30%;
-    margin: 20px 0 0 0;
-    /*overflow: hidden;*/
+    margin: 36px 0 0 6px;
 }
 .bit-eye-right {
     border: 2px solid rgb(159,140,64);
     border-radius: 8px;
     background:white;
-    position: absolute;
-    top: 0;
-    bottom: 8px;
-    right: 0;
-    left: 30px;
     height: 20%;
     width: 30%;
-    margin: auto;
-    overflow: hidden;
+    margin: 36px 0 0 6px;
 }
 .bit-eyeball {
     border-radius: 10px;
     background:black;
-    position: absolute;
-    top: 0;
-    bottom: 3px;
-    right: 0;
-    left: 0;
     height: 68%;
     width: 45%;
-    margin: auto;
+    margin: 2px 0 0 6px;
 }
 .bit-mouth {
     z-index: 1;
     border: 3px solid rgb(121,75,13);
     border-radius: 0 0 100% 100%/0 0 200% 200% ;
     border-top: none;
-    position: absolute;
-    top: 118px;
-    bottom: 0;
-    right: 0;
-    left: 272px;
     width:38px;
     height: 8px;
+    margin: -10px 0 0 20px;
 }
 .tear-left {
     z-index: 2;
     background: linear-gradient(0deg, rgba(185,207,231,1) 0%, rgba(116,145,230,1) 60%, rgba(76,139,233,1) 78%, rgba(43,75,167,1) 100%);    position: absolute;
-    top: 57px;
-    bottom: 0;
-    right: 0;
-    left: 20px;
     width:8px;
     height: 55px;
+    margin: 58px 0 0 16px;
 }
 .tear-right {
     z-index: 2;
     background: linear-gradient(0deg, rgba(185,207,231,1) 0%, rgba(116,145,230,1) 60%, rgba(76,139,233,1) 78%, rgba(43,75,167,1) 100%);    position: absolute;
-    top: 57px;
-    bottom: 0;
-    right: 0;
-    left: 63px;
     width:8px;
     height: 55px;
+    margin: 58px 0 0 58px;
 }
 .bit-face:hover {
-    overflow: visible;
     cursor: cell;
 }
 
