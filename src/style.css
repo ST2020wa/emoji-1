@@ -9,76 +9,12 @@ span {
     width: 400px;
 }
 
-.six {
-    grid-area: 2 / 1 / 3 / 2;
-    border: 3px solid orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.six-face {
-    border: 3px solid  rgb(237,127,6);
-    background: linear-gradient(0deg, rgba(240,144,14,1) 0%, rgba(253,254,195,1) 95%, rgba(255,255,214,1) 100%);
-    border-radius: 60px;
-    height: 50%;
-    width: 50%;
-    display: inline-flex;
-    flex-wrap: wrap;
-}
-.six-eye-left {
-    border: 2px solid rgb(159,140,64);
-    border-radius: 0 0 60px 60px;
-    background:white;
-    height: 14px;
-    width: 32px;
-    margin: 38px 6px 0 6px;
-    overflow: hidden;
-}
-.six-eye-right {
-    border: 2px solid rgb(159,140,64);
-    border-radius: 0 0 60px 60px;
-    background:white;
-    height: 14px;
-    width: 32px;
-    margin: 38px 0 0 0;
-    overflow: hidden;
-}
-.six-eyeball {
-    border: 1px solid black;
-    border-radius: 0 0 30px 30px;
-    background:black;
-    height: 12px;
-    width: 15px;
-    margin: 0 0 0 12px;
-    padding: 0 0 0 15px;
-}
-.six-mouth {
-    border: 3px solid rgb(121,75,13);
-    border-radius: 0 0 100% 100%/0 0 200% 200% ;
-    border-top: none;
-    width:30px;
-    height: 5px;
-    margin: -10px 0 0 28px;
-}
-.text{
-    font-size: 45px;
-    font-family: sans-serif;
-    color: rgb(230,35,23);
-    font-weight: bold;
-    z-index: 1;
-    margin: -108px 0 0 40px;
-}
-.text:hover{
-    cursor: default;
-    transform: scale(1.5);
-    color: rgb(47,235,225);
-    text-shadow: rgb(242,0,66) 4px 1px;
-    cursor: cell;
-}
-
 .bit {
     grid-area: 1 / 2 / 2 / 3;
     border: 3px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .bit-face {
     border: 3px solid  rgb(237,127,6);
@@ -92,15 +28,10 @@ span {
     border: 2px solid rgb(159,140,64);
     border-radius: 8px;
     background:white;
-    position: absolute;
-    top: 0;
-    bottom: 8px;
-    right: 55px;
-    left: 0;
     height: 20%;
     width: 30%;
-    margin: auto;
-    overflow: hidden;
+    margin: 20px 0 0 0;
+    /*overflow: hidden;*/
 }
 .bit-eye-right {
     border: 2px solid rgb(159,140,64);
@@ -318,5 +249,72 @@ span {
 .roll-face:hover {
     border: 3px solid rgb(146,187,44);
     background: linear-gradient(0deg, rgba(107,132,16) 0%, rgba(218,235,168,1) 100%);
+    cursor: cell;
+}
+
+.six {
+    grid-area: 2 / 1 / 3 / 2;
+    border: 3px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.six-face {
+    border: 3px solid  rgb(237,127,6);
+    background: linear-gradient(0deg, rgba(240,144,14,1) 0%, rgba(253,254,195,1) 95%, rgba(255,255,214,1) 100%);
+    border-radius: 60px;
+    height: 50%;
+    width: 50%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.six-eye-left {
+    border: 2px solid rgb(159,140,64);
+    border-radius: 0 0 60px 60px;
+    background:white;
+    height: 14px;
+    width: 36px;
+    margin: 38px 6px 0 4px;
+    overflow: hidden;
+}
+.six-eye-right {
+    border: 2px solid rgb(159,140,64);
+    border-radius: 0 0 60px 60px;
+    background:white;
+    height: 14px;
+    width: 36px;
+    margin: 38px 0 0 -2px;
+    overflow: hidden;
+}
+.six-eyeball {
+    border: 1px solid black;
+    border-radius: 0 0 30px 30px;
+    background:black;
+    height: 12px;
+    width: 15px;
+    margin: 0 0 0 16px;
+    padding: 0 0 0 15px;
+}
+.six-mouth {
+    border: 3px solid rgb(121,75,13);
+    border-radius: 0 0 100% 100%/0 0 200% 200% ;
+    border-top: none;
+    width:30px;
+    height: 5px;
+    margin: -10px 0 0 28px;
+}
+.text{
+    font-size: 45px;
+    font-family: sans-serif;
+    color: rgb(230,35,23);
+    font-weight: bold;
+    z-index: 1;
+    margin: -108px 0 0 40px;
+}
+.text:hover{
+    cursor: default;
+    transform: scale(1.5);
+    color: rgb(47,235,225);
+    text-shadow: rgb(242,0,66) 4px 1px;
     cursor: cell;
 }
