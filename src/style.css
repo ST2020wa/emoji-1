@@ -1,32 +1,30 @@
-.wrapper {
+span {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    /*border: 1px solid red;*/
-    background: white;
+    background: rgb(222,222,222);
     height:400px;
     width: 400px;
-    position: relative;
 }
 
 .roll {
     grid-area: 1 / 1 / 2 / 2;
-    /*border: 3px solid darkred;*/
+    border: 3px solid darkred;
     position:relative;
 }
 .six {
     grid-area: 2 / 1 / 3 / 2;
-    /*border: 3px solid orangered;*/
+    border: 3px solid orange;
 }
 .bit {
     grid-area: 1 / 2 / 2 / 3;
-    /*border: 3px solid green;*/
+    border: 3px solid green;
 }
 .crack {
     grid-area: 2 / 2 / 3 / 3;
-    /*border: 3px solid blue;*/
+    border: 3px solid blue;
 }
 
 .roll-face {
@@ -40,7 +38,7 @@
     left: 0;
     height: 50%;
     width: 50%;
-    margin: auto;
+    margin: 25%;
     overflow: hidden;
 }
 .roll-eye-left {
@@ -115,7 +113,6 @@
     left: 0;
     height: 25%;
     width: 25%;
-    margin: auto;
     overflow: hidden;
 }
 .six-eye-left {
