@@ -25,6 +25,8 @@ span {
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
+    position: relative;
+
 }
 .bit-eye-left {
     border: 2px solid rgb(159,140,64);
@@ -74,6 +76,7 @@ span {
 }
 .bit-face:hover {
     cursor: cell;
+    overflow: visible;
 }
 
 .crack {
