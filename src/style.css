@@ -14,7 +14,7 @@ span {
     border: 3px solid orange;
 }
 .six-face {
-    border: 10px solid  rgb(237,127,6);
+    border: 3px solid  rgb(237,127,6);
     background: linear-gradient(0deg, rgba(240,144,14,1) 0%, rgba(253,254,195,1) 95%, rgba(255,255,214,1) 100%);
     border-radius: 60px;
     height: 50%;
