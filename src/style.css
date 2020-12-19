@@ -22,9 +22,8 @@ span {
     border-radius: 60px;
     height: 50%;
     width: 50%;
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
-    overflow: hidden;
 }
 .six-eye-left {
     border: 2px solid rgb(159,140,64);
@@ -59,14 +58,15 @@ span {
     border-top: none;
     width:30px;
     height: 5px;
-    margin: -15px 0 0 28px;
+    margin: -10px 0 0 28px;
 }
 .text{
-    font-size: 36px;
+    font-size: 45px;
     font-family: sans-serif;
     color: rgb(230,35,23);
     font-weight: bold;
     z-index: 1;
+    margin: -108px 0 0 40px;
 }
 .text:hover{
     cursor: default;
