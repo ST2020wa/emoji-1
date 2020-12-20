@@ -11,7 +11,7 @@ span {
 
 .bit {
     grid-area: 1 / 2 / 2 / 3;
-    border: 3px solid green;
+    border: 3px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +80,7 @@ span {
 
 .crack {
     grid-area: 2 / 2 / 3 / 3;
-    border: 3px solid blue;
+    border: 3px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,13 +137,13 @@ span {
     margin: -380px 0 -220px 0;
 }
 .icon:hover {
-    transform: scale(2);
+    transform: scale(2.5);
 }
 
 
 .roll {
     grid-area: 1 / 1 / 2 / 2;
-    border: 3px solid darkred;
+    border: 3px solid white;
     position:relative;
 }
 .roll-face {
@@ -217,13 +217,13 @@ span {
 }
 .roll-face:hover {
     border: 3px solid rgb(146,187,44);
-    background: linear-gradient(0deg, rgba(107,132,16) 0%, rgba(218,235,168,1) 100%);
+    background: linear-gradient(0deg, rgb(107,132,16) 0%, rgba(218,235,168,1) 100%);
     cursor: cell;
 }
 
 .six {
     grid-area: 2 / 1 / 3 / 2;
-    border: 3px solid orange;
+    border: 3px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
