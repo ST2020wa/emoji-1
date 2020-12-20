@@ -4,7 +4,7 @@ span {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    background: rgb(222,222,222);
+    background: none;
     height:400px;
     width: 400px;
 }
@@ -26,7 +26,6 @@ span {
     flex-wrap: wrap;
     overflow: hidden;
     position: relative;
-
 }
 .bit-eye-left {
     border: 2px solid rgb(159,140,64);
@@ -82,6 +81,10 @@ span {
 .crack {
     grid-area: 2 / 2 / 3 / 3;
     border: 3px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .crack-face {
     border: 3px solid  rgb(237,127,6);
@@ -89,68 +92,52 @@ span {
     border-radius: 60px;
     height: 50%;
     width: 50%;
-    overflow: hidden;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 30px 0 0 0;
+    /*overflow: hidden;*/
 }
 .crack-eye-left {
     border: 2px solid rgb(159,140,64);
     background: white;
     border-radius: 60px;
-    position: absolute;
-    top: 20px;
-    bottom: 0;
-    right: 0;
-    left: 13px;
     height: 28%;
     width: 25%;
+    margin: 22px 0 0 10px;
 }
 .crack-eye-right {
     border: 2px solid rgb(159,140,64);
     background: white;
     border-radius: 60px;
-    position: absolute;
-    top: 20px;
-    bottom: 0;
-    right: 0;
-    left: 58px;
     height: 28%;
     width: 25%;
+    margin: -46px 0 0 56px;
 }
 .crack-eyeball {
     border: 2px solid black;
     background: black;
     border-radius: 10px;
-    position: absolute;
-    top: 10px;
-    bottom: 0;
-    right: 0;
-    left: 3px;
     height: 50%;
     width: 58%;
+    margin: 10px 0 0 3px;
 }
 .crack-mouth {
     border: 3px solid rgb(121,75,13);
     border-radius: 0 0 100% 100%/0 0 200% 200% ;
     border-top: none;
-    position: absolute;
-    top: 315px;
-    bottom: 0;
-    right: 0;
-    left: 272px;
     width:50px;
     height: 12px;
+    margin: -20px 0 0 20px;
 }
 .icon {
     z-index: 2;
-    width: 11em; height: 11em;
-    position: absolute;
-    top: 219px;
-    bottom: 0;
-    right: 0;
-    left: 213px;
+    width: 160px;
+    height: 220px;
     fill: white;
+    margin: -380px 0 -220px 0;
 }
-.crack-face:hover {
-    transform: scale(0.5);
+.icon:hover {
+    transform: scale(2);
 }
 
 
