@@ -7,7 +7,6 @@ span {
     background: none;
     height:400px;
     width: 400px;
-    display: -webkit-flex;
 }
 
 
@@ -245,6 +244,7 @@ span {
     justify-content: center;
     align-items: center;
 }
+
 .six-face {
     border: 3px solid  rgb(237,127,6);
     background: linear-gradient(0deg, rgba(240,144,14,1) 0%, rgba(253,254,195,1) 95%, rgba(255,255,214,1) 100%);
@@ -261,7 +261,7 @@ span {
     height: 14px;
     width: 36px;
     margin: 38px 6px 0 4px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .six-eye-right {
     border: 2px solid rgb(159,140,64);
@@ -270,16 +270,6 @@ span {
     height: 14px;
     width: 36px;
     margin: 38px 0 0 -2px;
-    overflow: hidden;
-}
-.six-eyeball {
-    border: 1px solid black;
-    border-radius: 0 0 30px 30px;
-    background:black;
-    height: 12px;
-    width: 15px;
-    margin: 0 0 0 16px;
-    padding: 0 0 0 15px;
 }
 .six-mouth {
     border: 3px solid rgb(121,75,13);
@@ -289,6 +279,18 @@ span {
     height: 5px;
     margin: -10px 0 0 28px;
 }
+.six-eyeball {
+    border: 1px solid black;
+    border-radius: 0 0 30px 30px;
+    /*border-radius: 0 0 20px 0;*/
+    background:black;
+    height: 12px;
+    width: 15px;
+    margin: 0 0 0 16px;
+    /*padding: 0 0 0 15px;*/
+    padding: 0 0 0 5px;
+}
+
 .text{
     font-size: 45px;
     font-family: sans-serif;
