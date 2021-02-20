@@ -7,7 +7,9 @@ span {
     background: none;
     height:400px;
     width: 400px;
+    display: -webkit-flex;
 }
+
 
 .bit {
     grid-area: 1 / 2 / 2 / 3;
@@ -77,6 +79,10 @@ span {
     cursor: cell;
     overflow: visible;
 }
+.bit-face:active{
+    cursor: cell;
+    overflow: visible;
+}
 
 .crack {
     grid-area: 2 / 2 / 3 / 3;
@@ -137,6 +143,10 @@ span {
     margin: -380px 0 -220px 0;
 }
 .icon:hover {
+    transform: scale(2.5);
+    cursor: cell;
+}
+.icon:active {
     transform: scale(2.5);
     cursor: cell;
 }
@@ -221,6 +231,12 @@ span {
     background: linear-gradient(0deg, rgb(107,132,16) 0%, rgba(218,235,168,1) 100%);
     cursor: cell;
 }
+.roll-face:active {
+    border: 3px solid rgb(146,187,44);
+    background: linear-gradient(0deg, rgb(107,132,16) 0%, rgba(218,235,168,1) 100%);
+    cursor: cell;
+}
+
 
 .six {
     grid-area: 2 / 1 / 3 / 2;
@@ -288,3 +304,11 @@ span {
     text-shadow: rgb(242,0,66) 4px 1px;
     cursor: cell;
 }
+.text:active{
+    cursor: default;
+    transform: scale(1.5);
+    color: rgb(47,235,225);
+    text-shadow: rgb(242,0,66) 4px 1px;
+    cursor: cell;
+}
+
